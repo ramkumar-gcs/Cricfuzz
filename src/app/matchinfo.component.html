@@ -1,0 +1,18 @@
+
+<div class="matchinfo">
+<h2>PLAYING XI</h2>
+<h2>----------</h2>
+<h2>{{team1}}</h2>
+<div *ngFor="let data of playing1">
+  <div *ngFor="let item of data">
+        {{item.name}}
+  </div>   
+</div>
+<hr>
+<h2>{{team2}}</h2>
+<div *ngFor="let data of playing2">
+    <div *ngFor="let item of data">
+          {{item.name}}
+    </div>   
+  </div>
+</div>
