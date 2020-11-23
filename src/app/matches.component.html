@@ -1,0 +1,12 @@
+<!-- <div *ngFor="let data of tests">
+   <p> {{data["team-1"]}} vs {{data["team-2"]}} </p> 
+</div> -->
+
+<div class="box" *ngFor="let data of names">
+<h2>{{data["team-1"]}} vs {{data["team-2"]}}</h2>
+<app-matchinfo [parentData]="data.unique_id"></app-matchinfo>
+<app-summary [parentData]="data.unique_id"></app-summary>
+<app-scorecard [parentData]="data.unique_id"></app-scorecard>
+</div>
+
+
