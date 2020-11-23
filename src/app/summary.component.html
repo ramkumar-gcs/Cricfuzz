@@ -1,0 +1,43 @@
+<!-- <p>{{parentData}}</p> -->
+<h2>SCORECARD</h2>
+<h2>---------</h2>
+<h2>BATTING</h2>
+<div class="tableH">
+<table class='users' >    
+<div>
+    <tr>
+        <th *ngFor="let bat of batheader">{{bat}}</th>
+    </tr>
+    <div *ngFor="let data of finals">
+        <tr *ngFor="let i of data"> 
+            
+                <td>{{i.batsman}}</td>
+                <td>{{i.R}}</td>
+                <td>{{i.B}}</td>
+        
+        </tr>
+    </div>
+</div>
+</table>
+</div>
+<br>
+<h2>BOWLING</h2>
+<div class="tableH">
+<table class='users' >    
+<div>
+    <tr>
+        <th *ngFor="let bowl of bowlheader">{{bowl}}</th>
+    </tr>
+    <div *ngFor="let data of bowling">
+        <tr *ngFor="let i of data"> 
+            
+                <td>{{i.bowler}}</td>
+                <td>{{i.O}}</td>
+                <td>{{i.Econ}}</td>
+        
+        </tr>
+    </div>
+</div>
+</table>
+</div>
+<br> -->

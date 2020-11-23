@@ -1,0 +1,30 @@
+
+.users{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.users td,tr{
+    border:  1p solid #dddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+.users tr:nth-child(even){background-color: #f2f2f2;}
+
+.users tr:hover{background-color: #ddd;}
+
+.users th{
+    padding: 12px;
+    padding-bottom: 12px;
+    text-align: right;
+    background-color: blueviolet;
+    color: cornsilk;
+}
+.tableH{
+  margin-left: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
